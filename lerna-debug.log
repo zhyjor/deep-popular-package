@@ -1,0 +1,14 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: 'redux-demo'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/zhyj/personal/test/npm-demo
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/Users/zhyj/.nvm/versions/node/v12.22.12/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/Users/zhyj/.nvm/versions/node/v12.22.12/lib/node_modules/lerna/node_modules/execa/index.js:194:17)
+3 error     at Object.execSync (/Users/zhyj/.nvm/versions/node/v12.22.12/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/zhyj/.nvm/versions/node/v12.22.12/lib/node_modules/lerna/node_modules/@lerna/create/index.js:181:25)
+3 error     at CreateCommand.initialize (/Users/zhyj/.nvm/versions/node/v12.22.12/lib/node_modules/lerna/node_modules/@lerna/create/index.js:103:46)
