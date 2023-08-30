@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zhyjor <zhyjor@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/webpack-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --mode=development ./index.js"
+  },
+  "dependencies": {
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
