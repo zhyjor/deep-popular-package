@@ -7,15 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("\n__webpack_require__.e(/*! import() */ \"src_async_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./src/async.js */ \"./src/async.js\")).then(({ default: text }) => { console.log(text) });\n\n\n//# sourceURL=webpack://webpack-demo/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_sync_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/sync.js */ \"./src/sync.js\");\n\n\n__webpack_require__.e(/*! import() */ \"src_async_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./src/async.js */ \"./src/async.js\")).then(({ default: text }) => { console.log(text) });\n\n\n//# sourceURL=webpack://webpack-demo/./index.js?");
+
+/***/ }),
+
+/***/ "./src/sync.js":
+/*!*********************!*\
+  !*** ./src/sync.js ***!
+  \*********************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst SyncTest = 'test sync'\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SyncTest);\n\n\n//# sourceURL=webpack://webpack-demo/./src/sync.js?");
 
 /***/ })
 
